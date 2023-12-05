@@ -15,6 +15,7 @@ namespace ProyectoDiseñoBackend.Controllers
             _employeeService = employeeService;
 
         [HttpGet]
+        [Route("RetrieveAll")]
         public async Task<IActionResult> Get()
         {
             var employee = await _employeeService.GetAsync();
@@ -30,7 +31,8 @@ namespace ProyectoDiseñoBackend.Controllers
             return Ok(employeeList);
         }
 
-        [HttpGet("{id:length(24)}")]
+        [HttpGet]
+        [Route("RetrieveById")]
         public async Task<ActionResult<Employee>> Get(string id)
         {
             var employee = await _employeeService.GetAsync(id);
@@ -44,16 +46,18 @@ namespace ProyectoDiseñoBackend.Controllers
         }
 
         [HttpPost]
+        [Route("Create")]
         public async Task<IActionResult> Post(Employee newEmployee)
         {
             await _employeeService.CreateAsync(newEmployee);
             return CreatedAtAction(nameof(Get), new { id = newEmployee.Id }, newEmployee);
         }
 
-        [HttpPut("{id:length(24)}")]
-        public async Task<IActionResult> Update(string id, Employee updatedEmployee)
+        [HttpPut]
+        [Route("Update")]
+        public async Task<IActionResult> Update(Employee updatedEmployee)
         {
-            var employee = await _employeeService.GetAsync(id);
+            var employee = await _employeeService.GetAsync(updatedEmployee.Id);
 
             if (employee is null)
             {
@@ -61,11 +65,12 @@ namespace ProyectoDiseñoBackend.Controllers
             }
 
             updatedEmployee.Id = employee.Id;
-            await _employeeService.UpdateAsync(id, updatedEmployee);
+            await _employeeService.UpdateAsync(updatedEmployee.Id, updatedEmployee);
             return NoContent();
         }
 
-        [HttpDelete("{id:length(24)}")]
+        [HttpDelete]
+        [Route("Delete")]
         public async Task<IActionResult> Delete(string id)
         {
             var employee = await _employeeService.GetAsync(id);

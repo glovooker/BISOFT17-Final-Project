@@ -15,6 +15,7 @@ namespace ProyectoDiseñoBackend.Controllers
             _bandService = bandService;
 
         [HttpGet]
+        [Route("RetrieveAll")]
         public async Task<IActionResult> Get()
         {
             var band = await _bandService.GetAsync();
@@ -30,7 +31,8 @@ namespace ProyectoDiseñoBackend.Controllers
             return Ok(bandList);
         }
 
-        [HttpGet("{id:length(24)}")]
+        [HttpGet]
+        [Route("RetrieveById")]
         public async Task<ActionResult<Band>> Get(string id)
         {
             var band = await _bandService.GetAsync(id);
@@ -44,16 +46,18 @@ namespace ProyectoDiseñoBackend.Controllers
         }
 
         [HttpPost]
+        [Route("Create")]
         public async Task<IActionResult> Post(Band newBand)
         {
             await _bandService.CreateAsync(newBand);
             return CreatedAtAction(nameof(Get), new { id = newBand.Id }, newBand);
         }
 
-        [HttpPut("{id:length(24)}")]
-        public async Task<IActionResult> Update(string id, Band updatedBand)
+        [HttpPut]
+        [Route("Update")]
+        public async Task<IActionResult> Update(Band updatedBand)
         {
-            var band = await _bandService.GetAsync(id);
+            var band = await _bandService.GetAsync(updatedBand.Id);
 
             if (band is null)
             {
@@ -61,11 +65,12 @@ namespace ProyectoDiseñoBackend.Controllers
             }
 
             updatedBand.Id = band.Id;
-            await _bandService.UpdateAsync(id, updatedBand);
+            await _bandService.UpdateAsync(updatedBand.Id, updatedBand);
             return NoContent();
         }
 
-        [HttpDelete("{id:length(24)}")]
+        [HttpDelete]
+        [Route("Delete")]
         public async Task<IActionResult> Delete(string id)
         {
             var band = await _bandService.GetAsync(id);

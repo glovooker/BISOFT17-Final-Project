@@ -15,6 +15,7 @@ namespace ProyectoDiseñoBackend.Controllers
             _accountService = accountService;
 
         [HttpGet]
+        [Route("RetrieveAll")]
         public async Task<IActionResult> Get()
         {
             var account = await _accountService.GetAsync();
@@ -30,7 +31,8 @@ namespace ProyectoDiseñoBackend.Controllers
             return Ok(accountList);
         }
 
-        [HttpGet("{id:length(24)}")]
+        [HttpGet]
+        [Route("RetrieveById")]
         public async Task<ActionResult<Account>> Get(string id)
         {
             var account = await _accountService.GetAsync(id);
@@ -44,16 +46,18 @@ namespace ProyectoDiseñoBackend.Controllers
         }
 
         [HttpPost]
+        [Route("Create")]
         public async Task<IActionResult> Post(Account newAccount)
         {
             await _accountService.CreateAsync(newAccount);
             return CreatedAtAction(nameof(Get), new { id = newAccount.Id }, newAccount);
         }
 
-        [HttpPut("{id:length(24)}")]
-        public async Task<IActionResult> Update(string id, Account updatedAccount)
+        [HttpPut]
+        [Route("Update")]
+        public async Task<IActionResult> Update(Account updatedAccount)
         {
-            var account = await _accountService.GetAsync(id);
+            var account = await _accountService.GetAsync(updatedAccount.Id);
 
             if (account is null)
             {
@@ -61,11 +65,12 @@ namespace ProyectoDiseñoBackend.Controllers
             }
 
             updatedAccount.Id = account.Id;
-            await _accountService.UpdateAsync(id, updatedAccount);
+            await _accountService.UpdateAsync(updatedAccount.Id, updatedAccount);
             return NoContent();
         }
 
-        [HttpDelete("{id:length(24)}")]
+        [HttpDelete]
+        [Route("Delete")]
         public async Task<IActionResult> Delete(string id)
         {
             var account = await _accountService.GetAsync(id);

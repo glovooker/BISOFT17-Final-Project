@@ -15,6 +15,7 @@ namespace ProyectoDiseñoBackend.Controllers
             _billingService = billingService;
 
         [HttpGet]
+        [Route("RetrieveAll")]
         public async Task<IActionResult> Get()
         {
             var billing = await _billingService.GetAsync();
@@ -30,7 +31,8 @@ namespace ProyectoDiseñoBackend.Controllers
             return Ok(billingList);
         }
 
-        [HttpGet("{id:length(24)}")]
+        [HttpGet]
+        [Route("RetrieveById")]
         public async Task<ActionResult<Billing>> Get(string id)
         {
             var billing = await _billingService.GetAsync(id);
@@ -44,16 +46,18 @@ namespace ProyectoDiseñoBackend.Controllers
         }
 
         [HttpPost]
+        [Route("Create")]
         public async Task<IActionResult> Post(Billing newBilling)
         {
             await _billingService.CreateAsync(newBilling);
             return CreatedAtAction(nameof(Get), new { id = newBilling.Id }, newBilling);
         }
 
-        [HttpPut("{id:length(24)}")]
-        public async Task<IActionResult> Update(string id, Billing updatedBilling)
+        [HttpPut]
+        [Route("Update")]
+        public async Task<IActionResult> Update(Billing updatedBilling)
         {
-            var billing = await _billingService.GetAsync(id);
+            var billing = await _billingService.GetAsync(updatedBilling.Id);
 
             if (billing is null)
             {
@@ -61,11 +65,12 @@ namespace ProyectoDiseñoBackend.Controllers
             }
 
             updatedBilling.Id = billing.Id;
-            await _billingService.UpdateAsync(id, updatedBilling);
+            await _billingService.UpdateAsync(updatedBilling.Id, updatedBilling);
             return NoContent();
         }
 
-        [HttpDelete("{id:length(24)}")]
+        [HttpDelete]
+        [Route("Delete")]
         public async Task<IActionResult> Delete(string id)
         {
             var billing = await _billingService.GetAsync(id);

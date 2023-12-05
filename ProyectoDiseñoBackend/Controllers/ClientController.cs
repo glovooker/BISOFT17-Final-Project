@@ -15,6 +15,7 @@ namespace ProyectoDiseñoBackend.Controllers
             _clientService = clientService;
 
         [HttpGet]
+        [Route("RetrieveAll")]
         public async Task<IActionResult> Get()
         {
             var client = await _clientService.GetAsync();
@@ -30,7 +31,8 @@ namespace ProyectoDiseñoBackend.Controllers
             return Ok(clientList);
         }
 
-        [HttpGet("{id:length(24)}")]
+        [HttpGet]
+        [Route("RetrieveById")]
         public async Task<ActionResult<Client>> Get(string id)
         {
             var client = await _clientService.GetAsync(id);
@@ -44,16 +46,18 @@ namespace ProyectoDiseñoBackend.Controllers
         }
 
         [HttpPost]
+        [Route("Create")]
         public async Task<IActionResult> Post(Client newClient)
         {
             await _clientService.CreateAsync(newClient);
             return CreatedAtAction(nameof(Get), new { id = newClient.Id }, newClient);
         }
 
-        [HttpPut("{id:length(24)}")]
-        public async Task<IActionResult> Update(string id, Client updatedClient)
+        [HttpPut]
+        [Route("Update")]
+        public async Task<IActionResult> Update(Client updatedClient)
         {
-            var client = await _clientService.GetAsync(id);
+            var client = await _clientService.GetAsync(updatedClient.Id);
 
             if (client is null)
             {
@@ -61,11 +65,12 @@ namespace ProyectoDiseñoBackend.Controllers
             }
 
             updatedClient.Id = client.Id;
-            await _clientService.UpdateAsync(id, updatedClient);
+            await _clientService.UpdateAsync(updatedClient.Id, updatedClient);
             return NoContent();
         }
 
-        [HttpDelete("{id:length(24)}")]
+        [HttpDelete]
+        [Route("Delete")]
         public async Task<IActionResult> Delete(string id)
         {
             var client = await _clientService.GetAsync(id);

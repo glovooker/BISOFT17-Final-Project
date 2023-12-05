@@ -15,6 +15,7 @@ namespace ProyectoDiseñoBackend.Controllers
             _projectService = projectService;
 
         [HttpGet]
+        [Route("RetrieveAll")]
         public async Task<IActionResult> Get()
         {
             var project = await _projectService.GetAsync();
@@ -30,7 +31,8 @@ namespace ProyectoDiseñoBackend.Controllers
             return Ok(projectList);
         }
 
-        [HttpGet("{id:length(24)}")]
+        [HttpGet]
+        [Route("RetrieveById")]
         public async Task<ActionResult<Project>> Get(string id)
         {
             var project = await _projectService.GetAsync(id);
@@ -44,16 +46,18 @@ namespace ProyectoDiseñoBackend.Controllers
         }
 
         [HttpPost]
+        [Route("Create")]
         public async Task<IActionResult> Post(Project newProject)
         {
             await _projectService.CreateAsync(newProject);
             return CreatedAtAction(nameof(Get), new { id = newProject.Id }, newProject);
         }
 
-        [HttpPut("{id:length(24)}")]
-        public async Task<IActionResult> Update(string id, Project updatedProject)
+        [HttpPut]
+        [Route("Update")]
+        public async Task<IActionResult> Update(Project updatedProject)
         {
-            var project = await _projectService.GetAsync(id);
+            var project = await _projectService.GetAsync(updatedProject.Id);
 
             if (project is null)
             {
@@ -61,11 +65,12 @@ namespace ProyectoDiseñoBackend.Controllers
             }
 
             updatedProject.Id = project.Id;
-            await _projectService.UpdateAsync(id, updatedProject);
+            await _projectService.UpdateAsync(updatedProject.Id, updatedProject);
             return NoContent();
         }
 
-        [HttpDelete("{id:length(24)}")]
+        [HttpDelete]
+        [Route("Delete")]
         public async Task<IActionResult> Delete(string id)
         {
             var project = await _projectService.GetAsync(id);
