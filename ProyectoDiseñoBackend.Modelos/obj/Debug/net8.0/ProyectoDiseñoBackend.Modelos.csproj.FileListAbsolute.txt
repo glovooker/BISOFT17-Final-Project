@@ -1,0 +1,13 @@
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Modelos\bin\Debug\net8.0\ProyectoDiseñoBackend.Modelos.deps.json
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Modelos\bin\Debug\net8.0\ProyectoDiseñoBackend.Modelos.dll
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Modelos\bin\Debug\net8.0\ProyectoDiseñoBackend.Modelos.pdb
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Modelos\obj\Debug\net8.0\ProyectoDiseñoBackend.Modelos.csproj.AssemblyReference.cache
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Modelos\obj\Debug\net8.0\ProyectoDiseñoBackend.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Modelos\obj\Debug\net8.0\ProyectoDiseñoBackend.Modelos.AssemblyInfoInputs.cache
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Modelos\obj\Debug\net8.0\ProyectoDiseñoBackend.Modelos.AssemblyInfo.cs
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Modelos\obj\Debug\net8.0\ProyectoDiseñoBackend.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Modelos\obj\Debug\net8.0\ProyectoDiseñoBackend.Modelos.sourcelink.json
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Modelos\obj\Debug\net8.0\ProyectoDiseñoBackend.Modelos.dll
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Modelos\obj\Debug\net8.0\refint\ProyectoDiseñoBackend.Modelos.dll
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Modelos\obj\Debug\net8.0\ProyectoDiseñoBackend.Modelos.pdb
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Modelos\obj\Debug\net8.0\ref\ProyectoDiseñoBackend.Modelos.dll

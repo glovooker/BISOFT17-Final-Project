@@ -398,6 +398,86 @@
         "runtime": {
           "lib/net6.0/ZstdSharp.dll": {}
         }
+      },
+      "ProyectoDiseñoBackend.Controllers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "8.0.0",
+          "MongoDB.Driver": "2.22.0",
+          "ProyectoDiseñoBackend.Iterador": "1.0.0",
+          "ProyectoDiseñoBackend.Modelos": "1.0.0",
+          "ProyectoDiseñoBackend.Servicios": "1.0.0",
+          "Swashbuckle.AspNetCore": "6.5.0"
+        },
+        "compile": {
+          "bin/placeholder/ProyectoDiseñoBackend.Controllers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProyectoDiseñoBackend.Controllers.dll": {}
+        }
+      },
+      "ProyectoDiseñoBackend.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "8.0.0",
+          "MongoDB.Driver": "2.22.0",
+          "Swashbuckle.AspNetCore": "6.5.0"
+        },
+        "compile": {
+          "bin/placeholder/ProyectoDiseñoBackend.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProyectoDiseñoBackend.Database.dll": {}
+        }
+      },
+      "ProyectoDiseñoBackend.Iterador/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "8.0.0",
+          "MongoDB.Driver": "2.22.0",
+          "Swashbuckle.AspNetCore": "6.5.0"
+        },
+        "compile": {
+          "bin/placeholder/ProyectoDiseñoBackend.Iterador.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProyectoDiseñoBackend.Iterador.dll": {}
+        }
+      },
+      "ProyectoDiseñoBackend.Modelos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "8.0.0",
+          "MongoDB.Driver": "2.22.0",
+          "Swashbuckle.AspNetCore": "6.5.0"
+        },
+        "compile": {
+          "bin/placeholder/ProyectoDiseñoBackend.Modelos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProyectoDiseñoBackend.Modelos.dll": {}
+        }
+      },
+      "ProyectoDiseñoBackend.Servicios/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "8.0.0",
+          "MongoDB.Driver": "2.22.0",
+          "ProyectoDiseñoBackend.Database": "1.0.0",
+          "ProyectoDiseñoBackend.Modelos": "1.0.0",
+          "Swashbuckle.AspNetCore": "6.5.0"
+        },
+        "compile": {
+          "bin/placeholder/ProyectoDiseñoBackend.Servicios.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProyectoDiseñoBackend.Servicios.dll": {}
+        }
       }
     }
   },
@@ -1232,12 +1312,40 @@
         "zstdsharp.port.0.6.2.nupkg.sha512",
         "zstdsharp.port.nuspec"
       ]
+    },
+    "ProyectoDiseñoBackend.Controllers/1.0.0": {
+      "type": "project",
+      "path": "../ProyectoDiseñoBackend.Controllers/ProyectoDiseñoBackend.Controllers.csproj",
+      "msbuildProject": "../ProyectoDiseñoBackend.Controllers/ProyectoDiseñoBackend.Controllers.csproj"
+    },
+    "ProyectoDiseñoBackend.Database/1.0.0": {
+      "type": "project",
+      "path": "../ProyectoDiseñoBackend.Database/ProyectoDiseñoBackend.Database.csproj",
+      "msbuildProject": "../ProyectoDiseñoBackend.Database/ProyectoDiseñoBackend.Database.csproj"
+    },
+    "ProyectoDiseñoBackend.Iterador/1.0.0": {
+      "type": "project",
+      "path": "../ProyectoDiseñoBackend.Iterador/ProyectoDiseñoBackend.Iterador.csproj",
+      "msbuildProject": "../ProyectoDiseñoBackend.Iterador/ProyectoDiseñoBackend.Iterador.csproj"
+    },
+    "ProyectoDiseñoBackend.Modelos/1.0.0": {
+      "type": "project",
+      "path": "../ProyectoDiseñoBackend.Modelos/ProyectoDiseñoBackend.Modelos.csproj",
+      "msbuildProject": "../ProyectoDiseñoBackend.Modelos/ProyectoDiseñoBackend.Modelos.csproj"
+    },
+    "ProyectoDiseñoBackend.Servicios/1.0.0": {
+      "type": "project",
+      "path": "../ProyectoDiseñoBackend.Servicios/ProyectoDiseñoBackend.Servicios.csproj",
+      "msbuildProject": "../ProyectoDiseñoBackend.Servicios/ProyectoDiseñoBackend.Servicios.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.OpenApi >= 8.0.0",
       "MongoDB.Driver >= 2.22.0",
+      "ProyectoDiseñoBackend.Controllers >= 1.0.0",
+      "ProyectoDiseñoBackend.Database >= 1.0.0",
+      "ProyectoDiseñoBackend.Servicios >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -1247,11 +1355,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josih\\source\\repos\\ProyectoDiseñoBackend\\ProyectoDiseñoBackend\\ProyectoDiseñoBackend.csproj",
+      "projectUniqueName": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend\\ProyectoDiseñoBackend.csproj",
       "projectName": "ProyectoDiseñoBackend",
-      "projectPath": "C:\\Users\\josih\\source\\repos\\ProyectoDiseñoBackend\\ProyectoDiseñoBackend\\ProyectoDiseñoBackend.csproj",
+      "projectPath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend\\ProyectoDiseñoBackend.csproj",
       "packagesPath": "C:\\Users\\josih\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josih\\source\\repos\\ProyectoDiseñoBackend\\ProyectoDiseñoBackend\\obj\\",
+      "outputPath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\josih\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1267,7 +1375,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Controllers\\ProyectoDiseñoBackend.Controllers.csproj": {
+              "projectPath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Controllers\\ProyectoDiseñoBackend.Controllers.csproj"
+            },
+            "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Database\\ProyectoDiseñoBackend.Database.csproj": {
+              "projectPath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Database\\ProyectoDiseñoBackend.Database.csproj"
+            },
+            "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Servicios\\ProyectoDiseñoBackend.Servicios.csproj": {
+              "projectPath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Servicios\\ProyectoDiseñoBackend.Servicios.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

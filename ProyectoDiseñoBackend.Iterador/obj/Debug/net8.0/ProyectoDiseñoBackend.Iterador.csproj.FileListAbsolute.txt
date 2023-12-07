@@ -1,0 +1,13 @@
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Iterador\bin\Debug\net8.0\ProyectoDiseñoBackend.Iterador.deps.json
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Iterador\bin\Debug\net8.0\ProyectoDiseñoBackend.Iterador.dll
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Iterador\bin\Debug\net8.0\ProyectoDiseñoBackend.Iterador.pdb
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Iterador\obj\Debug\net8.0\ProyectoDiseñoBackend.Iterador.csproj.AssemblyReference.cache
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Iterador\obj\Debug\net8.0\ProyectoDiseñoBackend.Iterador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Iterador\obj\Debug\net8.0\ProyectoDiseñoBackend.Iterador.AssemblyInfoInputs.cache
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Iterador\obj\Debug\net8.0\ProyectoDiseñoBackend.Iterador.AssemblyInfo.cs
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Iterador\obj\Debug\net8.0\ProyectoDiseñoBackend.Iterador.csproj.CoreCompileInputs.cache
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Iterador\obj\Debug\net8.0\ProyectoDiseñoBackend.Iterador.sourcelink.json
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Iterador\obj\Debug\net8.0\ProyectoDiseñoBackend.Iterador.dll
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Iterador\obj\Debug\net8.0\refint\ProyectoDiseñoBackend.Iterador.dll
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Iterador\obj\Debug\net8.0\ProyectoDiseñoBackend.Iterador.pdb
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Iterador\obj\Debug\net8.0\ref\ProyectoDiseñoBackend.Iterador.dll

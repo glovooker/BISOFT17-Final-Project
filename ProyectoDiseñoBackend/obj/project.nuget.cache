@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dXtTjYNevMwUjwSZyjHL7wu+DTEcR32H8nQwGDhNdQATXkIVSKHRxAKVC3EGXEdIGY1fMCBV+wK0cPkn8CLSiQ==",
+  "dgSpecHash": "D87cVv7jROHKExis68TJ3yABizhvAmFbEKyQia6Fn6Aye6rylCxpkBm255T7iB+ad7pPKBpPervfZ0xQYOWH7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\josih\\source\\repos\\ProyectoDiseñoBackend\\ProyectoDiseñoBackend\\ProyectoDiseñoBackend.csproj",
+  "projectFilePath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend\\ProyectoDiseñoBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josih\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\josih\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
