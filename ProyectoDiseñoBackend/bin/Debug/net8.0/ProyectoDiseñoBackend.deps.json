@@ -10,6 +10,9 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "8.0.0",
           "MongoDB.Driver": "2.22.0",
+          "ProyectoDiseñoBackend.Controllers": "1.0.0",
+          "ProyectoDiseñoBackend.Database": "1.0.0",
+          "ProyectoDiseñoBackend.Servicios": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
@@ -215,6 +218,61 @@
             "fileVersion": "0.6.2.0"
           }
         }
+      },
+      "ProyectoDiseñoBackend.Controllers/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "8.0.0",
+          "MongoDB.Driver": "2.22.0",
+          "ProyectoDiseñoBackend.Iterador": "1.0.0",
+          "ProyectoDiseñoBackend.Modelos": "1.0.0",
+          "ProyectoDiseñoBackend.Servicios": "1.0.0",
+          "Swashbuckle.AspNetCore": "6.5.0"
+        },
+        "runtime": {
+          "ProyectoDiseñoBackend.Controllers.dll": {}
+        }
+      },
+      "ProyectoDiseñoBackend.Database/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "8.0.0",
+          "MongoDB.Driver": "2.22.0",
+          "Swashbuckle.AspNetCore": "6.5.0"
+        },
+        "runtime": {
+          "ProyectoDiseñoBackend.Database.dll": {}
+        }
+      },
+      "ProyectoDiseñoBackend.Iterador/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "8.0.0",
+          "MongoDB.Driver": "2.22.0",
+          "Swashbuckle.AspNetCore": "6.5.0"
+        },
+        "runtime": {
+          "ProyectoDiseñoBackend.Iterador.dll": {}
+        }
+      },
+      "ProyectoDiseñoBackend.Modelos/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "8.0.0",
+          "MongoDB.Driver": "2.22.0",
+          "Swashbuckle.AspNetCore": "6.5.0"
+        },
+        "runtime": {
+          "ProyectoDiseñoBackend.Modelos.dll": {}
+        }
+      },
+      "ProyectoDiseñoBackend.Servicios/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "8.0.0",
+          "MongoDB.Driver": "2.22.0",
+          "ProyectoDiseñoBackend.Database": "1.0.0",
+          "ProyectoDiseñoBackend.Modelos": "1.0.0",
+          "Swashbuckle.AspNetCore": "6.5.0"
+        },
+        "runtime": {
+          "ProyectoDiseñoBackend.Servicios.dll": {}
+        }
       }
     }
   },
@@ -398,6 +456,31 @@
       "sha512": "sha512-jPao/LdUNLUz8rn3H1D8W7wQbZsRZM0iayvWI4xGejJg3XJHT56gcmYdgmCGPdJF1UEBqUjucCRrFB+4HbJsbw==",
       "path": "zstdsharp.port/0.6.2",
       "hashPath": "zstdsharp.port.0.6.2.nupkg.sha512"
+    },
+    "ProyectoDiseñoBackend.Controllers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProyectoDiseñoBackend.Database/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProyectoDiseñoBackend.Iterador/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProyectoDiseñoBackend.Modelos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProyectoDiseñoBackend.Servicios/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

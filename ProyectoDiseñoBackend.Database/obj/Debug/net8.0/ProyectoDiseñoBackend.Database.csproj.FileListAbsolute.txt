@@ -1,0 +1,13 @@
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Database\bin\Debug\net8.0\ProyectoDiseñoBackend.Database.deps.json
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Database\bin\Debug\net8.0\ProyectoDiseñoBackend.Database.dll
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Database\bin\Debug\net8.0\ProyectoDiseñoBackend.Database.pdb
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Database\obj\Debug\net8.0\ProyectoDiseñoBackend.Database.csproj.AssemblyReference.cache
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Database\obj\Debug\net8.0\ProyectoDiseñoBackend.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Database\obj\Debug\net8.0\ProyectoDiseñoBackend.Database.AssemblyInfoInputs.cache
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Database\obj\Debug\net8.0\ProyectoDiseñoBackend.Database.AssemblyInfo.cs
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Database\obj\Debug\net8.0\ProyectoDiseñoBackend.Database.csproj.CoreCompileInputs.cache
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Database\obj\Debug\net8.0\ProyectoDiseñoBackend.Database.sourcelink.json
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Database\obj\Debug\net8.0\ProyectoDiseñoBackend.Database.dll
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Database\obj\Debug\net8.0\refint\ProyectoDiseñoBackend.Database.dll
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Database\obj\Debug\net8.0\ProyectoDiseñoBackend.Database.pdb
+C:\Users\josih\Documents\GitHub\BISOFT-17-UniversidadAPI\BISOFT17-FinalProject\ProyectoDiseñoBackend.Database\obj\Debug\net8.0\ref\ProyectoDiseñoBackend.Database.dll

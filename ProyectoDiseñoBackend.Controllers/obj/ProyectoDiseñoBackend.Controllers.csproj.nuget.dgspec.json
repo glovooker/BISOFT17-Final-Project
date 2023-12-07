@@ -1,0 +1,370 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Controllers\\ProyectoDiseñoBackend.Controllers.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Controllers\\ProyectoDiseñoBackend.Controllers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Controllers\\ProyectoDiseñoBackend.Controllers.csproj",
+        "projectName": "ProyectoDiseñoBackend.Controllers",
+        "projectPath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Controllers\\ProyectoDiseñoBackend.Controllers.csproj",
+        "packagesPath": "C:\\Users\\josih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Controllers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\josih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Iterador\\ProyectoDiseñoBackend.Iterador.csproj": {
+                "projectPath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Iterador\\ProyectoDiseñoBackend.Iterador.csproj"
+              },
+              "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Modelos\\ProyectoDiseñoBackend.Modelos.csproj": {
+                "projectPath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Modelos\\ProyectoDiseñoBackend.Modelos.csproj"
+              },
+              "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Servicios\\ProyectoDiseñoBackend.Servicios.csproj": {
+                "projectPath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Servicios\\ProyectoDiseñoBackend.Servicios.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Database\\ProyectoDiseñoBackend.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Database\\ProyectoDiseñoBackend.Database.csproj",
+        "projectName": "ProyectoDiseñoBackend.Database",
+        "projectPath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Database\\ProyectoDiseñoBackend.Database.csproj",
+        "packagesPath": "C:\\Users\\josih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\josih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Iterador\\ProyectoDiseñoBackend.Iterador.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Iterador\\ProyectoDiseñoBackend.Iterador.csproj",
+        "projectName": "ProyectoDiseñoBackend.Iterador",
+        "projectPath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Iterador\\ProyectoDiseñoBackend.Iterador.csproj",
+        "packagesPath": "C:\\Users\\josih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Iterador\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\josih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Modelos\\ProyectoDiseñoBackend.Modelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Modelos\\ProyectoDiseñoBackend.Modelos.csproj",
+        "projectName": "ProyectoDiseñoBackend.Modelos",
+        "projectPath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Modelos\\ProyectoDiseñoBackend.Modelos.csproj",
+        "packagesPath": "C:\\Users\\josih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Modelos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\josih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Servicios\\ProyectoDiseñoBackend.Servicios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Servicios\\ProyectoDiseñoBackend.Servicios.csproj",
+        "projectName": "ProyectoDiseñoBackend.Servicios",
+        "projectPath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Servicios\\ProyectoDiseñoBackend.Servicios.csproj",
+        "packagesPath": "C:\\Users\\josih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Servicios\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\josih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Database\\ProyectoDiseñoBackend.Database.csproj": {
+                "projectPath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Database\\ProyectoDiseñoBackend.Database.csproj"
+              },
+              "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Modelos\\ProyectoDiseñoBackend.Modelos.csproj": {
+                "projectPath": "C:\\Users\\josih\\Documents\\GitHub\\BISOFT-17-UniversidadAPI\\BISOFT17-FinalProject\\ProyectoDiseñoBackend.Modelos\\ProyectoDiseñoBackend.Modelos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
